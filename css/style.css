@@ -397,6 +397,24 @@ header{
   }
 
 
+  @media only screen and (max-width: 992px) {
+   .navbar-nav{
+    background-color: #022d4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   }
+
+   .social-icon{
+    display: flex;
+    flex-direction: row !important;
+    
+   }
+
+
+  }
+
   @media only screen and (max-width: 600px) {
    .navbar-nav{
     background-color: #022d4e;
@@ -411,6 +429,17 @@ header{
     flex-direction: row !important;
     
    }
+
+   .projectSection{
+    padding: 0 45px !important;
+   }
+
+   .priceSection{
+    padding: 0 10px !important;
+
+   }
+
+
   }
 
   /* nav btn */
