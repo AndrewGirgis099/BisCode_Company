@@ -1,5 +1,6 @@
 :root{
     --Main-background:#041d33;
+    --SecondBackground-background:#062744;
     --Header-Coloer:#ff9f1c;
 }
 
@@ -16,6 +17,10 @@ html{
 }
 nav{
     background-color: var(--Main-background);
+}
+
+.bg-secBackground{
+  background-color: var(--SecondBackground-background);
 }
 
 .text-title{
