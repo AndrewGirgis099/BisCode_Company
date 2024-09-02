@@ -266,6 +266,7 @@ header{
   ),
   url(../images/3.png);  background-position: center center;
   background-size: cover;
+ 
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;
@@ -678,6 +679,14 @@ width: 120px;
    .priceSection{
     padding: 0 10px !important;
 
+   }
+
+   .section-Services{
+    padding: 15px 0px !important;
+   }
+
+   .WhatServ{
+    padding: 20px 0 0 0 !important;
    }
 
 
